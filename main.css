@@ -58,3 +58,34 @@ body {
 .bottom-section {
 	height: 50px;
 }
+
+.fa-play {
+	height: 40px;
+	width: 40px;
+	padding-left: 5px;
+	border: 1px solid black;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	font-size: 150%;
+	box-shadow: 0 0 1px rgba(0,0,0,.5);
+}
+
+.fa-step-backward, .fa-step-forward {
+	height: 30px;
+	width: 30px;
+	border: 1px solid black;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 50%;
+	box-shadow: 0 0 1px rgba(0,0,0,.5);
+}
+
+.buttons {
+	display: flex;
+	align-items: center;
+}
+
+.playlist {
+
+}
