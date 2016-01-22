@@ -1,0 +1,60 @@
+body {
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: radial-gradient(circle, #3B1849, #222);
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.player {
+	width:400px;
+	background: rgba(255,255,255,.3);
+	border-radius: 25px;
+	display: flex;
+	align-content: center;
+	flex-wrap: wrap;
+	padding:0px;
+	box-shadow:
+		0 0 50px rgba(0,0,0,.4),
+		0 15px 15px rgba(0,0,0,.2);
+}
+
+.top-section,
+.middle-section,
+.bottom-section {
+	width: 100%;
+	padding: 0 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.player i {
+	margin: 10px;
+}
+
+.top-section {
+	align-items: center;
+	height: 40px;
+}
+
+.middle-section {
+	height: 280px;
+	background: black;
+}
+
+.bottom-section {
+	height: 50px;
+}
