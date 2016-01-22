@@ -9,6 +9,9 @@
   "author": "Sander",
   "license": "MIT",
   "dependencies": {
-    "bower": "~1.7.2"
+    "bower": "~1.7.2",
+    "gulp-livereload": "~3.8.1",
+    "gulp-connect": "~2.3.1",
+    "gulp": "~3.9.0"
   }
 }
