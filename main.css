@@ -114,7 +114,12 @@ body {
 	font-family: 'PT Sans';
 	line-height: 20px;
 	width: 100%;
-	
+	і
+}
+
+.playlist a {
+	text-decoration: none;
+	color: black;
 }
 
 li {
