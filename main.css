@@ -87,19 +87,36 @@ body {
 }
 
 .playlist {
-height: 370px;
-width:400px;
-	background: rgba(255,255,255,.3);
+	height: 370px;
+	width:400px;
+	background: rgba(255,255,255,.7);
 	border-radius: 25px;
+	position: absolute;
 	display: none;
-	visibility: hidden;
 	padding:0px;
 	box-shadow:
 		0 0 50px rgba(0,0,0,.4),
 		0 15px 15px rgba(0,0,0,.2);
+	top: -5px;
+	left: -5px;
 }
 
-.fa-list:hover{
-	cursor: pointer;
+.fa-list {
+	position: relative;
+}
+
+.fa-list:hover .playlist {
 	display: flex;
+	cursor: pointer;
+}
+
+.playlist ol {
+	font-family: 'PT Sans';
+	line-height: 20px;
+	width: 100%;
+	
+}
+
+li {
+	border-bottom: 1.5px solid rgba(0,0,0,.3);
 }
